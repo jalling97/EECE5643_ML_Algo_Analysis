@@ -1,0 +1,12 @@
+name: eece5643-project
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python
+  - numpy>=1.16
+  - pip
+  - jupyterlab
+  - pip:
+    - matplotlib
+    - sklearn
